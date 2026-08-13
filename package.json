@@ -1,0 +1,30 @@
+{
+  "name": "tmp-parser",
+  "version": "1.0.0",
+  "description": "A TextMesh Pro style markup parser for making HTML easier.",
+  "keywords": [
+    "textmeshpro",
+    "tmp",
+    "html",
+    "parser",
+    "markup",
+    "text",
+    "converter",
+    "css"
+  ],
+  "homepage": "https://github.com/iamcheese-man/tmp-parser#readme",
+  "bugs": {
+    "url": "https://github.com/iamcheese-man/tmp-parser/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamcheese-man/tmp-parser.git"
+  },
+  "license": "MIT",
+  "author": "iamcheese-man",
+  "type": "commonjs",
+  "main": "tmp-parser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
