@@ -1,6 +1,6 @@
 {
   "name": "tmp-parser",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A TextMesh Pro style markup parser for making HTML easier.",
   "keywords": [
     "textmeshpro",
