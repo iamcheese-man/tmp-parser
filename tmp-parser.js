@@ -45,7 +45,10 @@ function parseTMP(text) {
 
         // Line break
         .replace(/<br>/g, '<br>')
-        .replace(/\r\n|\r|\n/g, '<br>');
+        .replace(/\r\n|\r|\n/g, '<br>')
+
+        // Links
+        .replace(/<link="([^"]+)">([\s\S]*?)<\/link>/g, '<a href="$1">$2</a>');
 }
 
 module.exports = { parseTMP };
