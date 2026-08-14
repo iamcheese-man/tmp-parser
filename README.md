@@ -10,13 +10,13 @@
 const { parseTMP } = require("tmp-parser");
 
 const html = parseTMP(
-  "<size=50>Hello <color=red>world</color></size>"
+  "<size=50>This <color=red>is</color><color=blue>an </color>example. </size>"
 );
 
 console.log(html);
 ```
 
-# Examples:
+# Photo Examples:
 
 ![Example1](./readme_ressources/example1.png)
 
