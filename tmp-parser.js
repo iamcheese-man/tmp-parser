@@ -44,7 +44,8 @@ function parseTMP(text) {
         .replace(/<\/s>/g, '</span>')
 
         // Line break
-        .replace(/<br>/g, '<br>');
+        .replace(/<br>/g, '<br>')
+        .replace(/\r\n|\r|\n/g, '<br>');
 }
 
 module.exports = { parseTMP };
